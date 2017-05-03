@@ -4,7 +4,8 @@
   "description": "Sample app: Marko + Lasso",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "marko test"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
     "lasso-marko": "^2.3.0",
     "marko": "^4.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "marko-devtools": "^1.0.3"
+  }
 }
