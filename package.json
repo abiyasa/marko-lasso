@@ -26,6 +26,6 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "marko-devtools": "^1.0.3"
+    "marko-devtools": "^1.0.5"
   }
 }
